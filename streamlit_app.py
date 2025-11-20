@@ -45,7 +45,7 @@ with tab1:
     prediction_date = st.date_input('Prediction Date', key='prediction_date_manual')
 
     st.subheader('Medical Features')
-    st.write('Enter the following features to predict if the person has heart disease:')
+    st.write('Enter the following parameter to predict if the person has heart disease:')
 
     # Feature inputs based on dataset columns (excluding target)
     age = st.slider('Age', 20, 100, 50, key='age_manual')
